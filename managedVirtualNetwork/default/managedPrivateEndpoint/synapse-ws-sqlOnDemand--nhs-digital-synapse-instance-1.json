@@ -1,0 +1,10 @@
+{
+	"name": "synapse-ws-sqlOnDemand--nhs-digital-synapse-instance-1",
+	"properties": {
+		"privateLinkResourceId": "/subscriptions/dfd31623-d6d5-4e57-a14d-a5a5793a5cc7/resourceGroups/NHS-Digital-Synapse-Instance-1/providers/Microsoft.Synapse/workspaces/nhs-digital-synapse-instance-1",
+		"groupId": "sqlOnDemand",
+		"fqdns": [
+			"nhs-digital-synapse-instance-1-ondemand.0d57de13-364a-4d7b-a682-b3abc427a40b.sql.azuresynapse.net"
+		]
+	}
+}
