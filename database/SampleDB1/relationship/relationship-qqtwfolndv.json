@@ -1,0 +1,26 @@
+{
+	"name": "relationship-qqtwfolndv",
+	"properties": {
+		"Name": "relationship-qqtwfolndv",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "SampleDB1"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "BankruptcyAssetLiquidation",
+		"ToTableName": "BankruptcyAssetLiquidationRelatedParty",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "AssetId",
+				"ToColumnName": "AssetId"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"BankruptcyAssetLiquidation.cdm.json/BankruptcyAssetLiquidation\",\"toEntity\":\"BankruptcyAssetLiquidationRelatedParty.cdm.json/BankruptcyAssetLiquidationRelatedParty\",\"joinPairs\":[{\"fromAttribute\":\"AssetId\",\"toAttribute\":\"AssetId\"}]}}"
+		}
+	},
+	"type": "RELATIONSHIP"
+}

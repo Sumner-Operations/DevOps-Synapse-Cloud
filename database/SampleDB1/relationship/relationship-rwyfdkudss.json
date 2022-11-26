@@ -1,0 +1,26 @@
+{
+	"name": "relationship-rwyfdkudss",
+	"properties": {
+		"Name": "relationship-rwyfdkudss",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "SampleDB1"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "BankruptcyAssetLiquidationPartyRelationshipType",
+		"ToTableName": "BankruptcyAssetLiquidationRelatedParty",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "BankruptcyAssetLiquidationPartyRelationshipTypeId",
+				"ToColumnName": "BankruptcyAssetLiquidationPartyRelationshipTypeId"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"BankruptcyAssetLiquidationPartyRelationshipType.cdm.json/BankruptcyAssetLiquidationPartyRelationshipType\",\"toEntity\":\"BankruptcyAssetLiquidationRelatedParty.cdm.json/BankruptcyAssetLiquidationRelatedParty\",\"joinPairs\":[{\"fromAttribute\":\"BankruptcyAssetLiquidationPartyRelationshipTypeId\",\"toAttribute\":\"BankruptcyAssetLiquidationPartyRelationshipTypeId\"}]}}"
+		}
+	},
+	"type": "RELATIONSHIP"
+}

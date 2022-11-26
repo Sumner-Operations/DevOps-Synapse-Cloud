@@ -1,0 +1,26 @@
+{
+	"name": "relationship-noaxjhkzat",
+	"properties": {
+		"Name": "relationship-noaxjhkzat",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "SampleDB1"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "AssignmentProceedingPartyRelationshipType",
+		"ToTableName": "AssignmentProceedingRelatedParty",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "AssignmentProceedingPartyRelationshipTypeId",
+				"ToColumnName": "AssignmentProceedingPartyRelationshipTypeId"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"AssignmentProceedingPartyRelationshipType.cdm.json/AssignmentProceedingPartyRelationshipType\",\"toEntity\":\"AssignmentProceedingRelatedParty.cdm.json/AssignmentProceedingRelatedParty\",\"joinPairs\":[{\"fromAttribute\":\"AssignmentProceedingPartyRelationshipTypeId\",\"toAttribute\":\"AssignmentProceedingPartyRelationshipTypeId\"}]}}"
+		}
+	},
+	"type": "RELATIONSHIP"
+}

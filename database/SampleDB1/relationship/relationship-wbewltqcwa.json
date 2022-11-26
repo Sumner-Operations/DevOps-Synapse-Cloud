@@ -1,0 +1,26 @@
+{
+	"name": "relationship-wbewltqcwa",
+	"properties": {
+		"Name": "relationship-wbewltqcwa",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "SampleDB1"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "BankruptcyCreditor",
+		"ToTableName": "BankruptcyCreditorAsset",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "BankruptcyProceedingId",
+				"ToColumnName": "BankruptcyProceedingId"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"BankruptcyCreditor.cdm.json/BankruptcyCreditor\",\"toEntity\":\"BankruptcyCreditorAsset.cdm.json/BankruptcyCreditorAsset\",\"joinPairs\":[{\"fromAttribute\":\"BankruptcyProceedingId\",\"toAttribute\":\"BankruptcyProceedingId\"}]}}"
+		}
+	},
+	"type": "RELATIONSHIP"
+}

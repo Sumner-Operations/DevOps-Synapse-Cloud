@@ -1,0 +1,26 @@
+{
+	"name": "relationship-vrppeiskij",
+	"properties": {
+		"Name": "relationship-vrppeiskij",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "SampleDB1"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "BankruptcyCreditor",
+		"ToTableName": "BankruptcyCreditorAsset",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "CreditorPartyId",
+				"ToColumnName": "CreditorPartyId"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"BankruptcyCreditor.cdm.json/BankruptcyCreditor\",\"toEntity\":\"BankruptcyCreditorAsset.cdm.json/BankruptcyCreditorAsset\",\"joinPairs\":[{\"fromAttribute\":\"CreditorPartyId\",\"toAttribute\":\"CreditorPartyId\"}]}}"
+		}
+	},
+	"type": "RELATIONSHIP"
+}

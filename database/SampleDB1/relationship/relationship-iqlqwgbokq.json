@@ -1,0 +1,26 @@
+{
+	"name": "relationship-iqlqwgbokq",
+	"properties": {
+		"Name": "relationship-iqlqwgbokq",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "SampleDB1"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "AttachedAssetStatus",
+		"ToTableName": "AssignmentAsset",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "AttachedAssetStatusId",
+				"ToColumnName": "AttachedAssetStatusId"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"AttachedAssetStatus.cdm.json/AttachedAssetStatus\",\"toEntity\":\"AssignmentAsset.cdm.json/AssignmentAsset\",\"joinPairs\":[{\"fromAttribute\":\"AttachedAssetStatusId\",\"toAttribute\":\"AttachedAssetStatusId\"}]}}"
+		}
+	},
+	"type": "RELATIONSHIP"
+}

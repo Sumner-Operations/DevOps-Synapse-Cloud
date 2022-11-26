@@ -1,0 +1,23 @@
+{
+	"name": "SampleDB1",
+	"properties": {
+		"Name": "SampleDB1",
+		"EntityType": "DATABASE",
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"Properties": {
+			"IsSyMSCDMDatabase": true,
+			"DerivedModelDBInfo": "{\"ModelDirectives\":{\"BaseModel\":{\"Name\":\"Agriculture\",\"Version\":\"0.1.0\"}}}"
+		},
+		"Source": {
+			"Provider": "ADLS",
+			"Location": "abfss://nhsdigitalfile1@nhsdigitalstorage1.dfs.core.windows.net/SampleDB1",
+			"Properties": {
+				"FormatType": "csv",
+				"LinkedServiceName": "nhs-digital-synapse-instance-1-WorkspaceDefaultStorage"
+			}
+		}
+	},
+	"type": "DATABASE"
+}
